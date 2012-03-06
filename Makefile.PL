@@ -3,6 +3,9 @@ use inc::Module::Install;
 name 'Jobeet';
 all_from 'lib/Jobeet.pm';
 
+requires 'DBIx::Class';
+requires 'SQL::Translator';
+
 requires 'Path::AttrRouter';
 requires 'Ark';
 
